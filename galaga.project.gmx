@@ -8,6 +8,8 @@
   <sprites name="sprites">
     <sprite>sprites\spr_player</sprite>
     <sprite>sprites\spr_bullet</sprite>
+    <sprite>sprites\spr_button_left</sprite>
+    <sprite>sprites\spr_button_right</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\space</background>
@@ -16,6 +18,8 @@
   <objects name="objects">
     <object>objects\obj_player</object>
     <object>objects\obj_bullet</object>
+    <object>objects\obj_button_left</object>
+    <object>objects\obj_button_right</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\main</room>
