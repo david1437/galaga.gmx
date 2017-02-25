@@ -33,6 +33,14 @@
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
+    <objects name="Spawns and Processors">
+      <object>objects\obj_spawn_a</object>
+      <object>objects\obj_spawn_b</object>
+      <object>objects\obj_spawn_d</object>
+      <object>objects\obj_spawn_c</object>
+      <object>objects\obj_spawn_e</object>
+      <object>objects\obj_process</object>
+    </objects>
     <objects name="buttons">
       <object>objects\obj_exit_button</object>
       <object>objects\obj_start_button</object>
