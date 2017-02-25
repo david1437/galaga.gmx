@@ -33,6 +33,7 @@
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts"/>
+  <fonts name="fonts"/>
   <objects name="objects">
     <objects name="Spawns and Processors">
       <object>objects\obj_spawn_a</object>
