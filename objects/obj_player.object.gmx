@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>global.p_score = 0
 global.p_1up = 0
-p_speed = 5
+p_speed = 7
 bullet_cooldown = 0
 </string>
           </argument>
