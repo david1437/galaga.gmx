@@ -50,10 +50,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>y+=4
+            <string>y+=3
 image_angle = 270
-image_xscale = 2.75
-image_yscale = 2.75
+image_xscale = 2.25
+image_yscale = 2.25
 if e_health &lt;= 0
 {
 global.p_score += 100

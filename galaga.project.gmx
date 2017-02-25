@@ -31,7 +31,11 @@
   <backgrounds name="background">
     <background>background\space</background>
   </backgrounds>
-  <paths name="paths"/>
+  <paths name="paths">
+    <path>paths\path_enemy_d</path>
+    <path>paths\path_enemy_ea</path>
+    <path>paths\path_enemy_eb</path>
+  </paths>
   <scripts name="scripts"/>
   <fonts name="fonts"/>
   <objects name="objects">
@@ -54,6 +58,11 @@
     <object>objects\obj_bullet</object>
     <object>objects\text_writer</object>
     <object>objects\obj_enemy_b</object>
+    <object>objects\obj_enemy_c</object>
+    <object>objects\obj_enemy_e</object>
+    <object>objects\obj_enemy_ea</object>
+    <object>objects\obj_enemy_eb</object>
+    <object>objects\obj_enemy_d</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\start_menu</room>
