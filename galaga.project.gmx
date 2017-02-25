@@ -32,6 +32,7 @@
     <background>background\space</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts"/>
   <objects name="objects">
     <objects name="Spawns and Processors">
       <object>objects\obj_spawn_a</object>
@@ -40,6 +41,7 @@
       <object>objects\obj_spawn_c</object>
       <object>objects\obj_spawn_e</object>
       <object>objects\obj_process</object>
+      <object>objects\obj_score_draw</object>
     </objects>
     <objects name="buttons">
       <object>objects\obj_exit_button</object>

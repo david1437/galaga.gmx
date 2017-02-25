@@ -54,7 +54,7 @@ bullet_cooldown = 0
             <kind>1</kind>
             <string>if mouse_check_button_released(mb_left) &amp;&amp; bullet_cooldown &lt;= 0 &amp;&amp; mouse_y &lt; y{
     instance_create(x+3.5, y-100, obj_bullet)
-    bullet_cooldown=6
+    bullet_cooldown=4
 }
 if bullet_cooldown &gt; 0 {
     bullet_cooldown--
