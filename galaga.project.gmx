@@ -35,6 +35,7 @@
     <object>objects\obj_start_button</object>
     <object>objects\obj_button_left</object>
     <object>objects\obj_button_right</object>
+    <object>objects\text_writer</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\start_menu</room>
