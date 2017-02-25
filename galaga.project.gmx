@@ -50,6 +50,7 @@
     <object>objects\obj_player</object>
     <object>objects\obj_bullet</object>
     <object>objects\text_writer</object>
+    <object>objects\obj_enemy_b</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\start_menu</room>
