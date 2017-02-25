@@ -7,6 +7,8 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\spr_player</sprite>
+    <sprite>sprites\spr_start_button</sprite>
+    <sprite>sprites\spr_exit_button</sprite>
     <sprite>sprites\spr_bullet</sprite>
     <sprite>sprites\spr_button_left</sprite>
     <sprite>sprites\spr_button_right</sprite>
@@ -28,11 +30,14 @@
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\obj_player</object>
+    <object>objects\obj_exit_button</object>
     <object>objects\obj_bullet</object>
+    <object>objects\obj_start_button</object>
     <object>objects\obj_button_left</object>
     <object>objects\obj_button_right</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\start_menu</room>
     <room>rooms\main</room>
   </rooms>
   <help>
