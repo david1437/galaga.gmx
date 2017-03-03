@@ -1,0 +1,11 @@
+{
+  "name": "server",
+  "main": "server.js",
+  "dependencies": {
+    "express": "~4.10.2"
+  },
+  "devDependencies": {
+    "express": "^4.10.8",
+    "mongoose": "^4.8.5"
+  }
+}
