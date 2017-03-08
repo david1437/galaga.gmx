@@ -9,10 +9,11 @@ var inputScore;
 
 //routes go here
 app.get('/value', function(req, res) {
-  inputScore = req.param('score');
-  res.send(inputScore);
 
-  input(inputScore).save(function(err,data) {
+  inputScore = req.query.score;
+  inputName = req.query.name;
+
+  input(inputName, inputScore).save(function(err,data) {
     if (err) console.log(err);
   });
 
@@ -29,19 +30,19 @@ db.once('open', function() {
 //database insertions and definitions
 var Schema = mongoose.Schema;
 var highscoreSchema = new Schema ({
+  name:  String,
   score: Number
 });
 
 var highscore = mongoose.model('highscore', highscoreSchema);
-//a is score input
-var input = function(a) {
+
+var input = function(a, b) {
   var newRow = new highscore ({
-    score: a
+    name:  a,
+    score: b
   });
   return newRow;
 }
-
-
 
 //start the server
 app.listen(port);

@@ -61,7 +61,7 @@ if bullet_cooldown &gt; 0 {
 }
 if global.p_health &lt;= 0 {
     var numberAsString = string(global.p_score);
-    http_get("http://127.0.0.1:8080/value?score="+numberAsString);
+    http_get("http://127.0.0.1:8080/value?score="+numberAsString+"&amp;name="+global.name);
     room_goto_previous();
 }
 

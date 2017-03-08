@@ -36,7 +36,6 @@
     <path>paths\path_enemy_ea</path>
     <path>paths\path_enemy_eb</path>
   </paths>
-  <scripts name="scripts"/>
   <objects name="objects">
     <objects name="Spawns and Processors">
       <object>objects\obj_spawn_a</object>
